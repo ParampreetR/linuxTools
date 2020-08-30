@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+if [ $# == 1 ]; then
+        if [ $1 == -h ]; then
+                echo 'USAGE::'
+                echo "  findapi <Name of API>"
+        else
+		cat /usr/include/x86_64-linux-gnu/asm/unistd_64.h | grep $1
+        fi
+else
+	cat /usr/include/x86_64-linux-gnu/asm/unistd_64.h
+fi
+
+
