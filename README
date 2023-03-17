@@ -12,12 +12,13 @@ This tool can be used to get shellcode from any executeable (elf). It generates 
 
 =>> findapi
 
-This tool is commonly used to find APIs from unisted.h. Instead of typing whole command with filtering output with grep. This tools makes a common work easy.
+This tool is commonly used to find APIs from unisted.h. Instead of typing whole command with filtering output with grep. This tools makes this frequent task easy.
 
 
 
 
-NOTE: These tools are tested on Kali, Unbuntu, Debian. Rest Distributions are experimental.
+NOTE: These tools are tested on Kali, Ubuntu, Debian. Rest Distributions are experimental.
+NOTE: Arch Linux users can use `ausyscall` instead of `findapi`
 
 
 
